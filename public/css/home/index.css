@@ -235,3 +235,103 @@ h1 {
 .title-project:hover {
   animation: 1s fadeup ease forwards;
 }
+.project-container {
+  left: 0;
+  z-index: 999;
+  transform: translate(-90px, -30px);
+}
+.github-images{
+  cursor: default;
+  padding-left: 10px;
+}
+.github-button {
+  white-space: nowrap;
+  width: max-content;
+  padding-block: 5px;
+  padding-inline: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  text-decoration: none;
+  position: absolute;
+  transform: translate(85px, 5px);
+}
+.group-stack {
+  transform:translate(75px, 30px);
+  width: 300px;
+  position: absolute;
+}
+.text-github {
+  transform: translateY(5px);
+  padding-inline: 5px;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+link {
+  text-decoration: none;
+}
+.text-texh-stack {
+  position: absolute;
+  transform: translate(180px, -65px);
+  background-color: rgba(200, 200, 200, 1);
+  border-radius: 20px;
+  padding-inline: 10px;
+}
+.tech-text {
+  position: absolute;
+  transform: translate(180px, 35px);
+  background-color: rgba(200, 200, 200, 1);
+  border-radius: 20px;
+  padding-inline: 10px;
+}
+.image-tech-stack {
+  left: 0;
+  transform: translateY(25px);
+}
+.image-tech-stack-2 {
+  left: 0;
+  transform: translate(-30px, -10px);
+}
+.link-web {
+  position: absolute;
+  transform: translate(115px, 110px);
+  background-color: rgba(100, 200, 100, 1);
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 12px;
+}
+.link-website {
+  position: absolute;
+  transform: translate(115px, 5px);
+  background-color: rgba(100, 200, 100, 1);
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 12px;
+}
+.github-button-3 {
+  white-space: nowrap;
+  width: max-content;
+  padding-block: 5px;
+  padding-inline: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  text-decoration: none;
+  position: absolute;
+  transform: translate(85px, 108px);
+}
+.github-images-3 {
+  cursor: default;
+  padding-left: 10px;
+}
